@@ -1,0 +1,11 @@
+
+<div>
+  <div *ngFor="let gifValue of gifListValues">
+    <h2>{{gifValue.gifTag| titlecase}}</h2>
+    <hr>
+    <gif-card [gifList]="gifValue.gifsList"/>
+  </div>
+</div>
+
+
+

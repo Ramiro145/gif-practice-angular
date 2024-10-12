@@ -1,0 +1,10 @@
+
+
+<shared-search-input (searchEvent)="searchValues($event)"/>
+
+<div class="mt-5">
+  <gif-list
+  *ngIf="gifListValue.length > 0"
+  [gifListValues]="gifListValue"
+  />
+</div>
